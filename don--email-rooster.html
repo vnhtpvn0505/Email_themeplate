@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Rooster Email Signature</title>
+    <style>
+
+       /* Define variables*/
+      :root {
+      --branding: #EF4623;
+      --sub-branding: #FFF5CF;
+      --black: #000000;
+      --bold: 700
+} 
+      @font-face {
+        font-family: 'Eurostile LT Std';
+        src: url('https://res.cloudinary.com/dxryijpqc/raw/upload/v1/Template%20Signature/bhxt5ec571gp3z65gzhe.otf');
+        src: url('http://res.cloudinary.com/ds7af1qcc/raw/upload/v1504692683/hinted-EurostileLTStd-Bold_iusgiq.eot?#iefix') format('embedded-opentype'),
+          url('http://res.cloudinary.com/ds7af1qcc/raw/upload/v1504692683/hinted-EurostileLTStd-Bold_xtevyi.woff2') format('woff2'),
+          url('http://res.cloudinary.com/ds7af1qcc/raw/upload/v1504692683/hinted-EurostileLTStd-Bold_vrfs3j.woff') format('woff'),
+          url('http://res.cloudinary.com/ds7af1qcc/raw/upload/v1504692683/hinted-EurostileLTStd-Bold_lw8et3.ttf') format('truetype'),
+          url('http://res.cloudinary.com/ds7af1qcc/raw/upload/v1504692683/hinted-EurostileLTStd-Bold_l0mb1e.svg#EurostileLTStd-Bold') format('svg');
+        font-weight: 700;
+        font-style: normal;
+      }
+
+       body {
+        font-family: 'Eurostile LT Std', 'Arial Black', Gadget, sans-serif;
+        text-transform:uppercase;
+        -webkit-font-smoothing:antialiased;
+        mso-line-height-rule:exactly;
+        padding:0px;
+        margin:0px;
+        -ms-text-size-adjust:100%;
+        -webkit-text-size-adjust:100%;
+       }
+/* Using for table*/
+       table{
+        border-radius:3px;
+        width:100%;
+        border-collapse:collapse;
+        mso-table-lspace:0pt;
+        mso-table-rspace:0pt;
+       }
+
+       table tr td {
+        font-size:15px;
+        mso-line-height-rule:exactly;
+        padding:0px;
+        margin:0px;
+        -ms-text-size-adjust:100%;
+        -webkit-text-size-adjust:100%;
+        letter-spacing:1.35px;
+        vertical-align:top;
+        box-sizing:border-box;
+       }
+/* Using for container*/
+       .container{
+        width:550px;
+        border-collapse:collapse;
+        mso-table-lspace:0pt;
+        mso-table-rspace:0pt;
+       }
+/* Using for left  column*/
+        .container .left-container{
+          width:110px;
+        }
+         .container  table{
+          width:auto;
+          border-collapse:collapse;
+          mso-table-lspace:0pt;
+         }
+
+         .container .left-container table  td {
+          vertical-align:top;
+           padding: 0 0 6px 0;
+         }
+         .container .left-container table  td  img{
+          width:104px;
+          height:auto;
+         }
+/* Using for right column*/
+         .container .right-container {
+          mso-line-height-rule:exactly;
+          padding:4px 0 0 0;
+          -ms-text-size-adjust:100%;
+          -webkit-text-size-adjust:100%;
+          letter-spacing:1.35px;
+          vertical-align:top;
+          padding-left:36px;
+         }
+
+         .container .right-container table{
+          width:550px;
+          border-collapse:collapse;
+          mso-table-lspace:0pt;
+          mso-table-rspace:0pt;
+         }
+
+          .container .right-container table tr td {
+            mso-line-height-rule:exactly;
+            -ms-text-size-adjust:100%;
+            -webkit-text-size-adjust:100%;
+            vertical-align:top;
+            text-decoration:none;
+          }
+/* Using for content in right column*/
+          .content {
+            mso-line-height-rule:exactly;
+            -ms-text-size-adjust:100%;
+            -webkit-text-size-adjust:100%;
+            text-decoration:none;
+          }
+/* Using for  spacing content child*/
+          .layout-content {
+            padding: 12px 0 0 0;
+           }
+/* Using for content title*/
+          .title {
+            font-size:18px;
+            letter-spacing:1.2px;
+            color:#DE4503;
+           }
+/* Using for content  subtitle*/
+           .subtitle {
+            font-size:16px;
+            color:#DE4503;
+            letter-spacing:1.2px;
+            text-decoration:none;
+          }
+          .link-subtitle {
+            color:#DE4503;
+            text-decoration:none;
+          }
+/* Using for content  contact*/
+          .content-contact {
+            font-size:16px;
+            letter-spacing:1.2px;
+            vertical-align:top;
+            color:#000000;
+            text-decoration:none;
+          } 
+          .link-contact {
+            color:#000000;
+            text-decoration:none;
+          }
+/* Using for content  social link*/
+        .content-social-link {
+       font-size:15px;mso-line-height-rule:exactly;padding:0px;margin:0px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;letter-spacing:1.35px;color:#000003;text-decoration:none;
+        }
+        .content-social-link span {
+         font-size:15px;mso-line-height-rule:exactly;padding:0px;margin:0px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;letter-spacing:1.35px;color:#000003;text-decoration:none;
+        }
+        .content-social-link a {
+       font-size:15px;mso-line-height-rule:exactly;;padding:0px;margin:0px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;letter-spacing:1.35px;color:#000003;text-decoration:none;
+        }
+        .content-social-link span a strong {
+      font-size:12px;mso-line-height-rule:exactly;padding:4px;margin:0px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;letter-spacing:1.35px;color:#FFF5CF;text-decoration:none; background-color:#DE4503;
+        }
+
+    </style>
+  </head>
+  <body >
+    <table class="main">
+      <tr>
+        <td class="wrapper" >
+          <table border="0" cellpadding="0" cellspacing="0"  class="container">
+            <tr>
+<!------------ Left Container (Logo Branding & Event Image) ------------------------>
+              <td  class="left-container">
+                <table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td>  
+                      <img src="https://res.cloudinary.com/dxryijpqc/image/upload/f_auto,q_auto/v1/Template%20Signature/ihrgcpovgvuwvqcbodjt" alt="Rooster" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="https://res.cloudinary.com/dxryijpqc/image/upload/v1722503527/Template%20Signature/h1bp5hxf8esnsjdpnxfw.png?fbclid=IwY2xjawEYMbBleHRuA2FlbQIxMAABHfaycKpTCITM7Jq4UDvbFUt18L36ta6FiSFs_AwisV9oi_cwzCZmdJ0xZA_aem_wIfc-IgTzkd48CPpMwz58A" alt="Fizz" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td >
+                      <img src="https://res.cloudinary.com/dxryijpqc/image/upload/f_auto,q_auto/v1/Template%20Signature/qo3gmiurj7nond0tyl8u" alt="WildSize" >
+                    </td>
+                  </tr>
+                </table>
+              </td>
+<!------------ End Left Container ------------------------>
+<!------------ Right Container (Content Signiture) ------------------------>
+              <td class="right-container">
+                <table border="0" cellpadding="0" cellspacing="0" >
+                  <!------------ Title Name ------------------------>
+                  <tr class="content">
+                    <td>
+                      <div  class="title" >
+                          <strong>DON VITERI</strong>
+                      </div>
+                    </td>
+                  </tr>
+                   <!------------ Title Position ------------------------>
+                  <tr >
+                    <td class="layout-content" >
+                      <div class=" content subtitle">
+                          <strong >CHIEF EXECUTIVE OFFICER</strong>
+                      </div>
+                    </td>
+                  </tr>
+                  <!------------ Title Branding ------------------------>
+                  <tr>
+                    <td >
+                      <div class=" content subtitle">
+                        <span >
+                            <a href="" target="_blank" class="link-subtitle" >
+                              <strong >ROOSTER BEVERAGES</strong>
+                            </a>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                    <!------------ Contact ------------------------>
+                  <tr>
+                    <td class="layout-content"  >
+                      <div  class=" content content-contact">    
+                          <strong >+84 763 390 045</strong>
+                      </div>
+                      <div  class="content-contact">                       
+                        <span >
+                            <a href="" class="link-contact" >
+                              <strong >DON@ROOSTERBEVERAGES.COM</strong>
+                            </a>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                   <!------------ Social ------------------------>
+                  <tr>
+                    <td class="layout-content" >
+                      <div class="content-social-link">
+                        <span >
+                          <a href="https://www.linkedin.com/company/rooster-beers" target="_blank" >
+                              <strong >linkedin</strong> 
+                            </a> 
+                        </span>
+                        <span > 
+                            <a href="https://www.facebook.com/theroosterbeers" target="_blank"> 
+                              <strong >facebook</strong> 
+                            </a> 
+                        </span>
+                        <span > 
+                        </span> 
+                        <span > 
+                            <a href="https://www.instagram.com/rooster.beers" target="_blank"> 
+                              <strong >instagram</strong> 
+                            </a> 
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+<!------------ End Right Container ------------------------>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
